@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/*Geral*/
+                             /*Geral*/
 
 :root {
   --main-color: #d92123;
@@ -36,7 +36,7 @@ i {
   padding: 2rem;
 }
 
-/*Cabeçalho e banner*/
+                     /*Cabeçalho e banner*/
 
 #header {
   min-height: 90vh;
@@ -124,7 +124,7 @@ i {
   background-color: var(--main-color);
 }
 
-/*Áreas de atuação*/
+                       /*Áreas de atuação*/
 
 .text-image-section {
   display: flex;
@@ -207,7 +207,7 @@ i {
   text-transform: uppercase;
 }
 
-/*Sobre nós*/
+                        /*Sobre nós*/
 
 #about {
   display: flex;
