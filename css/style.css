@@ -94,6 +94,8 @@ i {
 
 .banner p {
   font-size: 1.5rem;
+  position: relative;
+  z-index: 2;
 }
 
 .square {
@@ -539,7 +541,7 @@ i {
   left: 100%;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, .95);
   display: flex;
   flex-direction: column;
   padding: 4rem 2rem;
@@ -562,7 +564,7 @@ i {
 
 /*Responsivo*/
 
-@media (max-width: 450px){
+@media (max-width: 920px){
 
 /*Geral*/
 
@@ -641,7 +643,8 @@ i {
 /*Depoimentos*/
 
 .text-container {
-  text-align: center;padding: 2rem;
+  text-align: center;
+  padding: 2rem;
 }
 
 /*Colaboradores*/
@@ -678,6 +681,7 @@ i {
 }
 
 /*Rodapé*/
+
 #footer {
   flex-wrap: wrap;
 }
@@ -703,9 +707,10 @@ i {
   margin-bottom: 1.5rem;
 }
 
-.cantact-info, .links-container {
-  width: 100%;
-}
+.contact-info,
+  .links-container {
+    width: 100%;
+  }
 
 
 
