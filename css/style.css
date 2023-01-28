@@ -409,13 +409,28 @@ i {
   gap: 1rem;
 }
 
-#contact-information .form-contrl {
+#contact-information .form-control {
   display: flex;
   gap: 1rem;
 }
 
-#contact-information input
+#contact-information input,
+#contact-information textarea {
+  flex: 0.5;
+  padding: 1rem;
+  border: none;
+}
 
+#contact-information .btn {
+  align-self: start;
+  border: 2px solid var(--primary-text-color);
+  font-size: 1.2rem;
+  transition: .4s;
+} 
+#contact-information .btn:hover {
+  background-color: var(--primary-text-color);
+  color: var(--main-color);
+}
 
 
 
