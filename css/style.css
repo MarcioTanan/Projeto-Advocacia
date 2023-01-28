@@ -376,3 +376,46 @@ i {
   margin: .5rem 0;
 }
 
+/*Contato*/
+
+#contact {
+  background-color: var(--main-color);
+  gap: 0;
+  padding-bottom: 5rem;
+}
+
+#contact-information {
+  position: relative;
+  text-align: left;
+  padding: 3rem;
+  flex: 1 1 0;
+}
+
+#contact-information .section-subtitle {
+  color: var(--primary-text-color);
+}
+
+#contact-information i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-text-color);
+  color: var(--main-color);
+}
+
+#contact-information form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#contact-information .form-contrl {
+  display: flex;
+  gap: 1rem;
+}
+
+#contact-information input
+
+
+
+
