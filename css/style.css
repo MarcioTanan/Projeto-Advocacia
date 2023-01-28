@@ -335,7 +335,7 @@ i {
 /*Colaboradores*/
 
 #team {
-  position: relative
+  position: relative;
   margin-bottom: 2rem;
 }
 
@@ -345,6 +345,7 @@ i {
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
+  z-index: 2;
 }
 
 #team h2 span {
@@ -356,5 +357,22 @@ i {
   width: 100px;
   height: 100px;
   left: 50%;
-  margin-left: -50%;
+  margin-left: -50px;
+  top: -25px;
 }
+
+.employees {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.employee-name {
+  color: var(--main-color);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: .5rem 0;
+}
+
